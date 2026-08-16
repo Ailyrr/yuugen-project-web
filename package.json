@@ -1,0 +1,17 @@
+{
+  "name": "yuugen-project-web",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Landing page for Yuugen Project — branding, IT solutions and online event management. Runs on Cloudflare Workers.",
+  "scripts": {
+    "dev": "wrangler dev",
+    "start": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^5.20260816.1",
+    "typescript": "^5.6.3",
+    "wrangler": "^4.123.0"
+  }
+}
